@@ -1,0 +1,71 @@
+function random() {
+    var x=(Math.random());
+    
+    x=Math.round(x*10);
+  
+    if(x>6){
+      x=x-6;
+    }
+    if(x==0) {
+      x++;
+    }
+  
+      return x;
+      
+   }
+   
+   var a=random();
+   var b=random();
+
+
+  
+
+   if(a>b) {
+   document.querySelector("h1").innerText="Player 1 wins 🚩";
+   }
+   else if(a===b) {
+    document.querySelector("h1").innerText="Draw";
+   }
+   else {
+    document.querySelector("h1").innerText="Player 2 wins 🚩";
+   }
+  
+   if(a===1) 
+   document.querySelector(".img1").src="images/dice1.png";
+  
+   if(a===2) 
+   document.querySelector(".img1").src="images/dice2.png";
+  
+   if(a===3) 
+   document.querySelector(".img1").src="images/dice3.png";
+   
+   if(a===4) 
+   document.querySelector(".img1").src="images/dice4.png";
+   
+   if(a==5) 
+   document.querySelector(".img1").src="images/dice5.png";
+   
+   if(a==6) 
+   document.querySelector(".img1").src="images/dice6.png";
+  
+  
+   if(b===1) 
+   document.querySelector(".img2").src="images/dice1.png";
+  
+   if(b===2) 
+   document.querySelector(".img2").src="images/dice2.png";
+  
+   if(b===3) 
+   document.querySelector(".img2").src="images/dice3.png";
+   
+   if(b===4) 
+   document.querySelector(".img2").src="images/dice4.png";
+   
+   if(b===5) 
+   document.querySelector(".img2").src="images/dice5.png";
+   
+   if(b===6) 
+   document.querySelector(".img2").src="images/dice6.png";
+  
+  
+  

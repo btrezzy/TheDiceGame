@@ -1,0 +1,54 @@
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Lobster', cursive; */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color:#00DFA2 ;
+  text-align: center;
+
+
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  color: black;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+
+}
+
+p{
+  
+font-family: 'Indie Flower', cursive;
+font-size: 2rem;
+margin-left: 6rem;
+margin-bottom: 2rem;
+}
+
+.twodice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  
+  margin-left: 5rem;
+  width: 200px;
+}
+
+footer{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  background-color:#00DFA2 ;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  color: aliceblue;
+
+}
+
